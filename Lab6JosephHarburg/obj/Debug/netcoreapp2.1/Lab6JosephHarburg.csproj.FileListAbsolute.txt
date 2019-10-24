@@ -1,0 +1,11 @@
+C:\Users\josep\Desktop\coding\C#\Lab6JosephHarburg\Lab6JosephHarburg\bin\Debug\netcoreapp2.1\Lab6JosephHarburg.deps.json
+C:\Users\josep\Desktop\coding\C#\Lab6JosephHarburg\Lab6JosephHarburg\bin\Debug\netcoreapp2.1\Lab6JosephHarburg.runtimeconfig.json
+C:\Users\josep\Desktop\coding\C#\Lab6JosephHarburg\Lab6JosephHarburg\bin\Debug\netcoreapp2.1\Lab6JosephHarburg.runtimeconfig.dev.json
+C:\Users\josep\Desktop\coding\C#\Lab6JosephHarburg\Lab6JosephHarburg\bin\Debug\netcoreapp2.1\Lab6JosephHarburg.dll
+C:\Users\josep\Desktop\coding\C#\Lab6JosephHarburg\Lab6JosephHarburg\bin\Debug\netcoreapp2.1\Lab6JosephHarburg.pdb
+C:\Users\josep\Desktop\coding\C#\Lab6JosephHarburg\Lab6JosephHarburg\obj\Debug\netcoreapp2.1\Lab6JosephHarburg.csprojAssemblyReference.cache
+C:\Users\josep\Desktop\coding\C#\Lab6JosephHarburg\Lab6JosephHarburg\obj\Debug\netcoreapp2.1\Lab6JosephHarburg.csproj.CoreCompileInputs.cache
+C:\Users\josep\Desktop\coding\C#\Lab6JosephHarburg\Lab6JosephHarburg\obj\Debug\netcoreapp2.1\Lab6JosephHarburg.AssemblyInfoInputs.cache
+C:\Users\josep\Desktop\coding\C#\Lab6JosephHarburg\Lab6JosephHarburg\obj\Debug\netcoreapp2.1\Lab6JosephHarburg.AssemblyInfo.cs
+C:\Users\josep\Desktop\coding\C#\Lab6JosephHarburg\Lab6JosephHarburg\obj\Debug\netcoreapp2.1\Lab6JosephHarburg.dll
+C:\Users\josep\Desktop\coding\C#\Lab6JosephHarburg\Lab6JosephHarburg\obj\Debug\netcoreapp2.1\Lab6JosephHarburg.pdb
