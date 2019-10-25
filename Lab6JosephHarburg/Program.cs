@@ -12,35 +12,36 @@ namespace Lab6JosephHarburg
             //get user input;
             while (repeat)
             {
-                
-                Console.WriteLine("Please enter the number of sides you want the die to have");
-                string userInput = Console.ReadLine();
-                //validate user input;
-                bool correct = int.TryParse(userInput, out int total);
-                if (correct)
+                while (repeat)
                 {
-                    int diceRollOne = DiceRoll(total);
-                    int diceRollTwo = DiceRoll(total);
-                    Console.WriteLine($"Roll One: {diceRollOne}\nRoll Two: {diceRollTwo}");
-                    Console.WriteLine(NameOfRoll(diceRollOne, diceRollTwo));
-                    
-                    repeat = false;
+                    Console.WriteLine("Please enter the number of sides you want the die to have");
+                    string userInput = Console.ReadLine();
+                    //validate user input;
+                    bool correct = int.TryParse(userInput, out int total);
 
-                }
-                else
-                {
-                    Console.WriteLine("Im sorry thats not a valid response please enter a positive number");
-                    repeat = true;
+                    if (correct)
+                    {
+                        int diceRollOne = DiceRoll(total);
+                        int diceRollTwo = DiceRoll(total);
+                        Console.WriteLine($"Roll One: {diceRollOne}\nRoll Two: {diceRollTwo}");
+                        Console.WriteLine(NameOfRoll(diceRollOne, diceRollTwo));
+                        repeat = false;
+                    }
+                    else
+                    {
+                        Console.WriteLine("Im sorry thats not a valid response please enter a positive number");
+                        repeat = true;
+                    }
                 }
                 //valdiate yes or no response
-                while (repeat == false)
+                repeat = true;
+                while (repeat)
                 {
                     Console.WriteLine("Would you like to try again?");
                     string response = Console.ReadLine().ToLower();
                     if (response == "y" || response == "yes")
                     {
-                        repeat = true;
-
+                        repeat = false;
                     }
                     else if (response == "n" || response == "no")
                     {
@@ -50,9 +51,9 @@ namespace Lab6JosephHarburg
                     else
                     {
                         Console.WriteLine("Please enter a yes, no, y, or n please!");
-                        repeat = false;
                     }
                 }
+                repeat = true;
             }
         }
 
