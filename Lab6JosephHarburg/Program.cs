@@ -14,7 +14,7 @@ namespace Lab6JosephHarburg
             {
                 while (repeat)
                 {
-                    Console.WriteLine("Please enter the number of sides you want the die to have");
+                    Console.WriteLine("Please enter the number of sides you want the die to have:");
                     string userInput = Console.ReadLine();
                     //validate user input;
                     bool correct = int.TryParse(userInput, out int total);
@@ -29,7 +29,7 @@ namespace Lab6JosephHarburg
                     }
                     else
                     {
-                        Console.WriteLine("Im sorry thats not a valid response please enter a positive number");
+                        Console.WriteLine("Im sorry thats not a valid response please enter a positive number:");
                         repeat = true;
                     }
                 }
@@ -56,7 +56,7 @@ namespace Lab6JosephHarburg
                 repeat = true;
             }
         }
-
+        
         public static int DiceRoll(int userInput)
         {
             Random dice = new Random();
