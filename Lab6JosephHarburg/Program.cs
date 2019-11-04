@@ -8,14 +8,15 @@ namespace Lab6JosephHarburg
         {
             bool repeat = true;
             Console.WriteLine("Welcome to the Dice Roller!\n[.][:]");
-
+            Console.WriteLine("Please enter the number of sides you want the die to have:");
+            string userInput = Console.ReadLine();
             //get user input;
             while (repeat)
             {
                 while (repeat)
                 {
-                    Console.WriteLine("Please enter the number of sides you want the die to have:");
-                    string userInput = Console.ReadLine();
+                    
+                    
                     //validate user input;
                     bool correct = int.TryParse(userInput, out int total);
 
@@ -23,7 +24,7 @@ namespace Lab6JosephHarburg
                     {
                         int diceRollOne = DiceRoll(total);
                         int diceRollTwo = DiceRoll(total);
-                        Console.WriteLine($"Roll One: {diceRollOne}\nRoll Two: {diceRollTwo}");
+                        Console.WriteLine($"Dice One: {diceRollOne}\nDice Two: {diceRollTwo}");
                         Console.WriteLine(NameOfRoll(diceRollOne, diceRollTwo));
                         repeat = false;
                     }
@@ -60,7 +61,7 @@ namespace Lab6JosephHarburg
         public static int DiceRoll(int userInput)
         {
             Random dice = new Random();
-            return dice.Next(userInput);
+            return dice.Next(1, userInput + 1);
         }
 
         public static string NameOfRoll(int dicerollone, int dicerolltwo)
